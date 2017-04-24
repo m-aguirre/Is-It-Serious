@@ -2,14 +2,15 @@ import React from 'react';
 //
 const LoginField = () => (
 
-  <div>
+  <div className="loginDiv">
     Login:
     <input id="userName" />
     <button id='submitButton' onClick={() => {
         var text = document.getElementById('userName').value;
         document.getElementById('userName').value = '';
         alert(text)
-      
+
+
       }
     }>
       Submit

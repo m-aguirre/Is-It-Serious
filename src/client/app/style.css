@@ -18,6 +18,16 @@ h2{
   border-radius: 10px;
   border-color: blue;
 }
+.loginDiv{
+  width:80vw;
+  height:5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  border-style: double;
+  border-radius: 10px;
+  border-color: purple;
+
+}
 
 .symptom{
   width:80vw;
@@ -29,8 +39,8 @@ h2{
 }
 
 .symptomFieldDiv{
-  padding-left: 30%;
-  padding-top: 20%;
+  padding-left: 8%;
+  padding-top: 6%;
   width: 55vw;
   height: 20vh;
 
@@ -45,4 +55,10 @@ h2{
   font-size: 200%;
   font-family: Arial;
   align-self: center;
+}
+
+.chillMsgDiv{
+  width: 1000px;
+  height:1000px;
+  background-color: black;
 }
