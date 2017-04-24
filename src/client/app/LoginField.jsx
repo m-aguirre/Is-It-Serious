@@ -5,12 +5,15 @@ const LoginField = () => (
   <div>
     Login:
     <input id="userName" />
-    <button id='submitButton' onClick={() => alert('click')}>
+    <button id='submitButton' onClick={() => {
+        var text = document.getElementById('userName').value;
+        document.getElementById('userName').value = '';
+        alert(text)
+      }
+    }>
       Submit
     </button>
-      <button className="square" onClick={() => alert('click')}>
-    {/* TODO */}
-  </button>
+
   </div>
 
 )

@@ -3,6 +3,7 @@ import {render} from 'react-dom';
 
 import LoginField from './LoginField.jsx';
 import Header from './Header.jsx';
+import SymptomForm from './SymptomForm.jsx';
 
 
 class App extends React.Component {
@@ -12,7 +13,7 @@ class App extends React.Component {
   this.state = {
     clicked: false
   }
-  
+
 
 }
 
