@@ -23,6 +23,7 @@ class App extends React.Component {
     <div>
     <Header />
     <LoginField />
+    <SymptomForm />
     </div>
     )
 
@@ -30,4 +31,6 @@ class App extends React.Component {
 }
 
 render(<App/>, document.getElementById('app'));
+
+
 //

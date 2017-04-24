@@ -9,10 +9,12 @@ class SymptomForm extends React.Component {
 
 
   render() {
-  console.log(this.props)
   return (
     <div className="symptom">
-      <input id="sym"></input>
+        <div className="symptomFieldDiv">
+          <input id="sym"></input>
+          <button id="symptomButton">Is it Srs?</button>
+      </div>
     </div>
 
   )

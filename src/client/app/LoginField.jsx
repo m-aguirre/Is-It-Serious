@@ -9,6 +9,7 @@ const LoginField = () => (
         var text = document.getElementById('userName').value;
         document.getElementById('userName').value = '';
         alert(text)
+      
       }
     }>
       Submit
