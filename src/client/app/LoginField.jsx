@@ -5,7 +5,12 @@ const LoginField = () => (
   <div>
     Login:
     <input id="userName" />
-    <button id='submitButton'>Submit</button>
+    <button id='submitButton' onClick={() => alert('click')}>
+      Submit
+    </button>
+      <button className="square" onClick={() => alert('click')}>
+    {/* TODO */}
+  </button>
   </div>
 
 )
